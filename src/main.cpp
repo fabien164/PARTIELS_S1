@@ -32,7 +32,12 @@ cout << choix << std::endl;
   if (choix ==4) {
     std::cout<<"4. Quitter l'application" << std::endl;
   }
- 
-  
+  if (choix >4) {
+    std::cout<< "choix non valide" << std::endl;
+  } else {
+    if (choix <1) {
+      std::cout<<"choix non valide"<< std::endl; 
+    }
+  }
  return 0;
 }
