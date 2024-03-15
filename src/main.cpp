@@ -7,7 +7,9 @@ int main() {
  const float coutMinute = 0.33;
  cout << "****** Location de scooters électriques ******" << endl << endl;
  cout << "----------------------------------------------" << endl;
- //Partie à compléter 3.1
+ cout << "Scooters disponibles: " << scootersDispos << endl ;
+ cout << "Scooters en maintenance: " << scootersMaintenance << endl ;
+ cout << "Scooters empruntés: " << scootersTotal-scootersDispos-scootersMaintenance << endl ;
  cout << "----------------------------------------------" << endl << endl;
  cout << "1. Emprunter un scooter électrique" << endl;
  cout << "2. Restituer un scooter électrique" << endl;
